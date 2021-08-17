@@ -4444,7 +4444,8 @@
     var r = {
         "./logo.png": 14,
         "./text-1.png": 15,
-        "./text-2.png": 16
+        "./text-2.png": 16,
+		"./text-3.png": 99,
     };
 
     function i(e) {
@@ -4468,6 +4469,8 @@
     e.exports = n.p + TEXT1
 }, function(e, t, n) {
     e.exports = n.p + TEXT2
+}, function(e, t, n) {
+    e.exports = n.p + TEXT3
 }, function(e, t, n) {
     var r = n(18);
     "string" == typeof r && (r = [
@@ -7714,15 +7717,15 @@
             typeId: zn,
             maskId: Mn
         }, {
-            texture: pn(hn, "logo.png"),
+            texture: pn(hn, "text-1.png"),
             typeId: Nn,
             maskId: jn
         }, {
-            texture: pn(hn, "text-1.png"),
+            texture: pn(hn, "text-2.png"),
             typeId: zn,
             maskId: Dn
         }, {
-            texture: pn(hn, "text-2.png"),
+            texture: pn(hn, "text-3.png"),
             typeId: Nn,
             maskId: Fn
         }];
