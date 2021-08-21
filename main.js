@@ -5387,6 +5387,7 @@
         Je = function(e, t) {
             var r = e.texture(),
                 a = new Image;
+			a.crossOrigin = "anonymous";
             return a.src = n(8)("./".concat(t)), a.onload = function() {
                 r({
                     data: a,
